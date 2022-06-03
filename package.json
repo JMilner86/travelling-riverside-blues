@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -20,11 +21,15 @@
   },
   "homepage": "https://github.com/JMilner86/travelling-riverside-blues#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
-    "mongoose": "^6.0.13"
+    "mongoose": "^6.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^1.1.1"
   },
   "devDependencies": {
-    "dotenv": "^16.0.1",
     "nodemon": "^2.0.16"
   }
 }

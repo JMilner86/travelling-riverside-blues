@@ -1,8 +1,14 @@
 // Trading Card App?
 let searchBar = document.querySelector('.search');
-let getButton = document.querySelector('.get');
-// let dotenv = require('dotenv')
+let testButton = document.querySelector('.test');
+// require('dotenv').config()
 // let apiKey = process.env.API_KEY
+
+require('dotenv').config()
+
+console.log(process.env)
+
+
 
 
 
@@ -13,7 +19,7 @@ let getButton = document.querySelector('.get');
 // })
 
 
-getButton.addEventListener('click', function(){
+testButton.addEventListener('click', function(){
 fetch(`https://project.trumedianetworks.com/api/token`,{
     headers: { apiKey: `${apiKey}`}
 })
